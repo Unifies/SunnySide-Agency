@@ -2,7 +2,6 @@ import { section } from "framer-motion/client";
 import React from "react";
 import TransformPng from "../../assets/desktop/image-transform.jpg";
 import MobileTransformPng from "../../assets/mobile/image-transform.jpg";
-import "../../index.css";
 
 const Banner1 = () => {
   return (
