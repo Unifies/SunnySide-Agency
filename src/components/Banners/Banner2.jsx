@@ -6,15 +6,15 @@ const Banner2 = () => {
   return (
     <section>
       <div className="md:grid grid-cols-2 grid-rows-1 items-center">
-        <div className="col-start-1 col-end-2 row-start-1 row-end-2">
+        <div className="h-[100%] col-start-1 col-end-2 row-start-1 row-end-2">
           <picture>
             <source srcSet={StandPng} media="(min-width: 48rem)" />
             <img
               src={MobileStandPng}
               alt="Stand Out"
-              width="100%"
               loading="lazy"
               decoding="async"
+              className="w-full h-full"
             />
           </picture>
         </div>

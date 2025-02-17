@@ -1,6 +1,4 @@
 import React from "react";
-import NavBar from "./components/Navbar/NavBar";
-import BackgroundImage from "./components/Navbar/BackgroundImage";
 import Hero from "./components/Hero/Hero";
 import Banner1 from "./components/Banners/Banner1";
 import Banner2 from "./components/Banners/Banner2";
@@ -13,10 +11,7 @@ const App = () => {
   return (
     <>
       <main>
-        <BackgroundImage>
-          <NavBar />
-          <Hero />
-        </BackgroundImage>
+        <Hero />
         <Banner1 />
         <Banner2 />
         <Banner3 />

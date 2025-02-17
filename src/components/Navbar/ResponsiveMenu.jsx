@@ -6,6 +6,8 @@ const ResponsiveMenu = ({ open }) => {
     <AnimatePresence mode="wait">
       {open && (
         <div className="flex justify-end items-end md:hidden fixed right-0">
+          <h2 className="sr-only">Warding off HTML Report Errors</h2>
+
           <div className=" py-9 mt-3 mr-6 rounded-xl justify-end items-center text-center flex flex-col gap-8 w-[250px] bg-white">
             <a
               href=""

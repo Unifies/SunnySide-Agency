@@ -7,15 +7,15 @@ const Banner1 = () => {
   return (
     <section>
       <div className="md:grid grid-cols-2 grid-rows-1 items-center">
-        <div className="col-start-2 col-end-3 row-start-1 row-end-2">
+        <div className="h-[100%] col-start-2 col-end-3 row-start-1 row-end-2">
           <picture>
             <source srcSet={TransformPng} media="(min-width: 48rem)" />
             <img
               src={MobileTransformPng}
-              alt="Tranform your brand"
-              width="100%"
+              alt="Transform your brand"
               loading="lazy"
               decoding="async"
+              className="w-full h-full"
             />
           </picture>
         </div>

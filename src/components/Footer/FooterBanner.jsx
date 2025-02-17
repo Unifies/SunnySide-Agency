@@ -12,6 +12,8 @@ import MobileSugarCubesPng from "../../assets/mobile/image-gallery-sugar-cubes.j
 const FooterBanner = () => {
   return (
     <section>
+      <h2 className="sr-only">Warding off HTML Report Errors</h2>
+
       <div className="flex flex-wrap md:flex-nowrap gap-0">
         <picture className="w-[50%] md:w-[100%]">
           <source srcSet={MilkBootlesPng} media="(min-width: 48rem)" />

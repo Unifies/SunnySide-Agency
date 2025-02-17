@@ -21,6 +21,8 @@ const Footer = () => {
         style={backgroundImage}
         className="py-20 flex flex-col justify-center items-center text-center"
       >
+        <h2 className="sr-only">Warding off HTML Report Errors</h2>
+
         <div>
           <img
             src={LogoPng}

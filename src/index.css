@@ -31,7 +31,3 @@
   --color-white: hsl(0, 0%, 100%); /*White*/
   --color-active: hsl(199.9, 100%, 71.6%);
 }
-
-body {
-  min-height: 100vh;
-}

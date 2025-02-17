@@ -38,7 +38,7 @@ const Banner3 = () => {
         </div>
         <div
           style={backgroundImage2}
-          className="col-start-2 col-end-3 row-start-1 row-end-2 pt-[400px] pb-[50px]"
+          className="col-start-2 col-end-3 row-start-1 row-end-2 pt-[400px] pb-[50px] h-[100%]"
         >
           <div className="w-[80%] md:w-[58%] m-auto text-darkblue-100">
             <h1 className="font-extrabold text-3xl py-6 font-fraunces  text-center">
