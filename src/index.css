@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /*Typography*/
+
+  --font-barlow: "Barlow", "sans-serif";
+  --font-fraunces: "Fraunces", "sans-serif";
+
+  /*Colors*/
+
+  /*Primary*/
+
+  --color-softred: hsl(7, 99%, 70%); /*Soft Red*/
+  --color-yellow: hsl(51, 100%, 49%); /*Yellow*/
+  --color-darkcyan-100: hsl(
+    167,
+    40%,
+    24%
+  ); /*Dark Desaturated Cyan (graphic design text)*/
+  --color-darkblue-100: hsl(198, 62%, 26%); /*Dark Blue (photography text)*/
+  --color-darkcyan-200: hsl(168, 34%, 41%); /*Dark Moderate Cyan (footer)*/
+
+  /*Neutral*/
+
+  --color-darkblue-200: hsl(213, 9%, 39%); /*Very Dark Desaturated Blue*/
+  --color-darkblue-300: hsl(232, 10%, 55%); /*Very Dark Grayish Blue*/
+  --color-darkblue-400: hsl(212, 27%, 19%); /*Dark Grayish Blue*/
+  --color-grayishblue: hsl(210, 4%, 67%); /*Grayish Blue*/
+  --color-white: hsl(0, 0%, 100%); /*White*/
+  --color-active: hsl(199.9, 100%, 71.6%);
+}
+
+body {
+  min-height: 100vh;
+}
